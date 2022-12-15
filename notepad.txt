@@ -13,7 +13,7 @@ pwd
 git commit -am "msg"
 git branch "name"
 git log --all --decorate --oneline --graph
-alias graph = "sytanx"
+alias graph="git log --all --decorate --oneline --graph"
 git checkout "nama-branch"
 
 git clone https
