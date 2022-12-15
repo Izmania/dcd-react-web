@@ -1,1 +1,24 @@
 test saja
+
+git add .
+git commit -m "msg"
+git log -3
+git init
+git status
+git config --global user.name
+git config --global user.email
+undo : git checkout 4digit -- namafile.format
+
+pwd
+git commit -am "msg"
+git branch "name"
+git log --all --decorate --oneline --graph
+alias graph = "sytanx"
+git checkout "nama-branch"
+
+git clone https
+git remote
+git remote -v
+git push
+git fetch
+git pull
