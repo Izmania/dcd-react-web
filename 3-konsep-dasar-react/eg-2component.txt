@@ -1,0 +1,22 @@
+function Car({ manufacture, type, color }) {
+ return {
+   manufacture,
+   type,
+   color,
+   unitCode: `${+new Date()}-${manufacture}-${type}-${color}`,
+ }
+}
+
+Jika return tag HTML
+function Car({ manufacture, type, color }) {
+ return (
+   <div className='car-info'>
+     <dt>Manufacture:</dt>
+     <dd>{manufacture}</dd>
+     <dt>Type:</dt>
+     <dd>{type}</dd>
+     <dt>Color:</dt>
+     <dd>{color}</dd>
+   </div>
+ );
+}

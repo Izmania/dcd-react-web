@@ -1,0 +1,10 @@
+{
+ type: 'p',
+ props: {
+   className: 'p-blue',
+   children: 'Content of paragraph.',
+ },
+}
+
+Hasil HTML
+<p class="p-blue">Content of paragraph.</p>
