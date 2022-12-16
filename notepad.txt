@@ -20,5 +20,13 @@ git clone https
 git remote
 git remote -v
 git push
-git fetch
+git fetch + origin tujuan
 git pull
+
+https://codesandbox.io/p/github/IbraSuraya/dcd-4react-stater/draft/laughing-elion?file=%2Fsrc%2Findex.js&selection=%5B%7B%22endColumn%22%3A11%2C%22endLineNumber%22%3A9%2C%22startColumn%22%3A11%2C%22startLineNumber%22%3A9%7D%5D
+
+$ node -v
+v16.13.2
+
+$ npm -v
+8.1.2
