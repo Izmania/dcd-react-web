@@ -1,34 +1,37 @@
 urutan fork
 
-- fork tujuan
-- clone to lokal
+- fork izmania
+- clone to lokal : git clone link httpIbra
+- pindah ke directoty tersebut : cd nama_directory
 - 5 check
-	- fetch
+	- fetch update : git fetch izmania
 		- Jika tujuan duluan, 
-			- local : git merge tujuan/master
-			- github sendiri : git push -u origin master
+			- local : git merge izmania/master
+			- github selft : git push -u origin master
 	- graph
-	- Status
-	- remote
-	- branch
-- add remote tujuan as nama_tujuan
-- fetch again (master tujuan biar sama)
-- create branch baru | git chechou -b name
-- pindah branch baru
+	- Status : git status
+	- remote : git remote -v
+	- branch : git branch
+- add remote tujuan : git remote add izmania link httpIzma
+- fetch again (biar izma masuk ke graph) : git fetch izmania
+- graph
+- create branch baru " git branch fitur | git checkout -b fitur
+- pindah branch fitur : git checkout fitur
 - edit file
 - check
-	- status
-	- commit am msg
+	- git status
+	- git commit am msg
 	- status dan graph
-- git push ke origin branch baru
+- git push ke origin fitur
 - graph
-- pull requst manual di github pas di branch feature
-- Di tujuan di accept. Di kita udh close
-- graph, fetch tujuan
-- pindah ke master
-- local : git merge tujuan/master
+- pull requst manual di github [pindah ke fitur dulu baru compare & pull request]
+- Di izmania di accept. Di kita udh close
+- graph
+- git fetch izmania
+- pindah ke main : git checkout main
+- local : git merge izmania/master
 - graph
 - github sendiri : git push origin master
-- Hapus branch pull requst
+- Lokal : Hapus branch fitur : git branch -d fitur
 - graph
-- git push origin --delete branch pull request
+- github sendiri : git push origin --delete fitur
