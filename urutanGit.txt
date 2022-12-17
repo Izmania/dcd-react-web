@@ -1,0 +1,34 @@
+urutan fork
+
+- fork tujuan
+- clone to lokal
+- 5 check
+	- fetch
+		- Jika tujuan duluan, 
+			- local : git merge tujuan/master
+			- github sendiri : git push -u origin master
+	- graph
+	- Status
+	- remote
+	- branch
+- add remote tujuan as nama_tujuan
+- fetch again (master tujuan biar sama)
+- create branch baru | git chechou -b name
+- pindah branch baru
+- edit file
+- check
+	- status
+	- commit am msg
+	- status dan graph
+- git push ke origin branch baru
+- graph
+- pull requst manual di github pas di branch feature
+- Di tujuan di accept. Di kita udh close
+- graph, fetch tujuan
+- pindah ke master
+- local : git merge tujuan/master
+- graph
+- github sendiri : git push origin master
+- Hapus branch pull requst
+- graph
+- git push origin --delete branch pull request
